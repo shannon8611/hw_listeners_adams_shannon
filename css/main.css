@@ -1,0 +1,74 @@
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    background-color: #519d9e;
+    line-height: 1.5;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 100%;
+    background-color: #9dc8c8;
+    margin: 0 auto;
+}
+
+form,
+label,
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 75%;
+    margin: 0 auto;
+}
+
+form {
+    padding: 2em 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.5em 0 0.5em 0.5em;
+    opacity: 0.9;
+    border: none;
+}
+
+label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #519d9e;
+}
+
+input[type="text"],
+input[type="email"],
+label,
+textarea {
+    display: block;
+}
+
+#submit {
+    background-color: #d1b6e1;
+    display: block;
+    margin: 1em auto;
+    border: none;
+    padding: 0.5em;
+    color: #800000;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.8;
+}
