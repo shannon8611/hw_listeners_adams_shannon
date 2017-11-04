@@ -2,14 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Listener Branch</title>
+    <title>Form Branch</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1 id="numclick">Click Me</h1>
+    <header>
+        <img id="logo" src="img/logo.png" alt="Logo">
+    </header>
+    <div class="container">
+        <h1 class="visuallyhidden">Form</h1>
+        <form id="form" action="mailto:angelo.maramara@gmail.com" target="_blank" method="post">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Jon">
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Snow">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="johnsnow@example.com">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+
+    </div>
 
 
     <script src="js/main.js"></script>
