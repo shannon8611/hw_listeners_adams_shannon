@@ -24,7 +24,7 @@ catimg.addEventListener('mouseout', function () {
 
 //This event listener listens for when the user mouses over the second image with the class name of 'catimg'. The image then proceeds to rotate 180 degrees.
 
-var catimg2 = document.getElementsByClassName('beachimg')[1];
+var catimg2 = document.getElementsByClassName('catimg')[1];
 
 catimg2.addEventListener('mouseover', function () {
     catimg2.setAttribute('style', 'transform: rotate(180deg);');
